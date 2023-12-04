@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "KronaOne";
+    src: url(../fonts/KronaOne-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header {
+    display: flex;
+    margin-left: 114px;
+    margin-top: 42px;
+}
+.header_container_1 {
+    display: flex;
+    align-items: center;
+    gap: 558px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+.logo {
+    font-family: "KronaOne";
+    font-size: 24px;
+    border: 3px solid #000;
+    padding: 22px;
+    font-weight: bolder;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footer {
+    color: #fff;
+    background-color: #000;
+    display: flex;
+    border-radius: 54px 54px 0px 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 46px;
+    padding-right: 46px;
+}
+.footer_container-1 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.footer h1, .footer img {
+    cursor: pointer;
+}
+.Melon {
+    font-family: "KronaOne";
+}
+.section-1-container-1-item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 510px;
+    align-items: center;
+}
+.section-1-container-1-item-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-1-container-1-item-img img:nth-child(2) {
+    position: absolute;
+}
+.section-1-container-1-item-txt {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.section-1-container-1-item-txt {
+    font-size: 32px;
+    padding: 20px;
+    border-radius: 37px;
+    border: 1px solid #4CB8E7;
+}
+.section-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 48px;
+    margin-bottom: 120px;
+}
